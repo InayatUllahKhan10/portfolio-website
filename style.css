@@ -1448,6 +1448,14 @@ header ul a:hover{
   margin-bottom: 10px;
   color: #00e5ff;
 }
+.resume-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; /* <-- This adds spacing between the cards */
+  margin-top: 2rem;
+}
+
 </style>
 
 <!-- JS for Snackbar Message -->
